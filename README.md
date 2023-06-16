@@ -1,7 +1,7 @@
 # visionOS Demo
 ## Try out the visionOS system in your Quest headset.
 
-Welcome to the unofficial recreation of Apple's visionOS for the Meta Quest series! This project was inspired by the video demonstration by [ThrillSeeker](https://youtu.be/rjyUuLR8zoo).
+Welcome to the unofficial recreation of Apple's visionOS for the Meta Quest series! I'll be creating the visionOS systems as close as I can get it, and showing you how to do it as well in this [YouTube tutorial series](https://youtu.be/RpHAZ0N5W1s&list=PLwz27aQG0IIIBnLFnAj4he7Mp2mD5Mmh2). This project was inspired by the video demonstration by [ThrillSeeker](https://youtu.be/rjyUuLR8zoo).
 
 This repository allows users with a Meta Quest 2, 3, or Pro to experience Apple's visionOS system on their headsets. Whether you're an Apple enthusiast, a VR developer or a casual user who wants to try out different VR experiences, this project is for you.
 
