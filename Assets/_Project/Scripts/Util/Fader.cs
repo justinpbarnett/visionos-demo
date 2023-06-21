@@ -3,22 +3,22 @@ using UnityEngine;
 
 public class Fader : MonoBehaviour
 {
-    public CanvasGroup[] canvasGroups;
-    public float duration = 1.0f;
+    public float DefaultDuration => defaultDuration;
+    [SerializeField] private float defaultDuration = 0.25f;
 
-    public void FadeIn()
+    public void FadeIn(CanvasGroup[] canvasGroups)
     {
         foreach (CanvasGroup group in canvasGroups)
         {
-            StartCoroutine(FadeCanvasGroup(group, group.alpha, 1, duration));
+            StartCoroutine(FadeCanvasGroup(group, 0, 1, DefaultDuration));
         }
     }
 
-    public void FadeOut()
+    public void FadeOut(CanvasGroup[] canvasGroups)
     {
         foreach (CanvasGroup group in canvasGroups)
         {
-            StartCoroutine(FadeCanvasGroup(group, group.alpha, 0, duration));
+            StartCoroutine(FadeCanvasGroup(group, 1, 0, DefaultDuration));
         }
     }
 
