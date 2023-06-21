@@ -19,7 +19,7 @@ As an added bonus, we are also including a Unity project that you can manipulate
 
 First, you will need to sideload the visionOS application onto your Meta Quest headset. Don't worry if you're unfamiliar with the process, as [this video](https://youtu.be/RoIXxIfRNTw) provides an excellent step-by-step guide on how to do it.
 
-1. Download the latest 'visionOS Demo' APK from the [Google Drive Folder](https://drive.google.com/drive/folders/1hHDEBEsZ8gF5fPT-k_fPLhHiofy19dpN?usp=sharing).
+1. Download the latest 'visionOS Demo' APK from [Releases](https://github.com/JustinPBarnett/visionOS-Demo/releases).
 2. Follow the sideloading instructions in [this video](https://youtu.be/RoIXxIfRNTw).
 3. Once you've completed the sideloading process, you should be able to access 'visionOS Demo' from your headset's library in the 'Unlisted Apps' category.
 
